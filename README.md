@@ -52,4 +52,4 @@ Tools & Services Used
 
 ## 🏗️ Architecture Diagram
 
-![Architecture](architecture.png)
+![Architecture](Architecture.png)
