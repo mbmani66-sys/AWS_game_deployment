@@ -30,8 +30,13 @@ AWS runs Applications
 
 </> Markdown
 
+---
+
 ## Architecture Diagram
 
+<p align="center">
+   <img src="AWS_Architecture_pygame.png" width="900"/>
+</p>
 ![AWS Architecture](AWS_Architecture_pygame.png)
 
 
