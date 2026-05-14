@@ -28,6 +28,7 @@ AWS runs Applications
 - Application connects to MariaDB
 - Application  fetches images from s3
 
+## Architecture Diagram
 
 ![AWS Architecture][AWS_Architecture_pygame.png)
 
