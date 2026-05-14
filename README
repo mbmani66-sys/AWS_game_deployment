@@ -1,0 +1,37 @@
+AWS Architecture 
+The application is containerized using Docker and stored
+in Amazon Elastic container Registry. Github actions 
+automates CI/CD by building the image and deploying it
+to ECS Fargate.
+
+Route53 manages DNS routing to the application load
+balancer.
+Static or front end part of the game application are
+stored in S3, and the data of the application is 
+stored in the RDS MariaDB.
+
+Now we are building a fully scalable and serverless
+since we are using Fargate. 
+
+
+Execution flow
+
+Git hub actions
+- build a docker image
+- pushes to ECR
+- now it gets updated in the ECS service
+
+AWS runs Applications
+
+- ECS(Elastic container Service) Fargate starts
+ containers
+- Application connects to MariaDB
+- Application  fetches images from s3
+
+# AWS Game deployment Architecture
+
+![AWS Architecture][AWS_Architecture_pygame.png)
+
+
+
+
